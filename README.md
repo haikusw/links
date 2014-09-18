@@ -5,6 +5,10 @@ Reference
   https://github.com/tomaz/appledoc/blob/master/CommentsFormattingStyle.markdown
 
 
+- c gibberish <-> english  :)
+  http://cdecl.org
+
+   
 Code
 ===
 
@@ -13,3 +17,6 @@ Code
 
 - msgpack - compressed/binary JSON replacement 
   http://msgpack.org
+
+- xctool
+  https://github.com/facebook/xctool/
