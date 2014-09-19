@@ -8,6 +8,8 @@ Reference
   - NSHipster quickie:
       http://nshipster.com/documentation/
 
+  - Apple Naming conventions
+  https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-BBCHBFAH
 
 
    
@@ -20,8 +22,6 @@ Code
 - AppleDoc
   https://github.com/tomaz/appledoc
 
-- Apple Naming conventions
-  https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-BBCHBFAH
 
 - msgpack - compressed/binary JSON replacement 
   http://msgpack.org
