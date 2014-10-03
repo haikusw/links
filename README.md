@@ -44,3 +44,26 @@ Tools
 
 - VVDocumenter-Xcode documentation generator plug-in
   https://github.com/onevcat/VVDocumenter-Xcode
+
+
+Random tidbits to remember
+===
+
+- XCTest - http://nshipster.com/xctestcase/
+   XCTAssert[Not]EqualWithAccuracy for comparing two Double, Float, or other floating point values.
+  ```
+    XCTAssertEqualWithAccuracy(expression1, expression2, accuracy, format...)
+    XCTAssertNotEqualWithAccuracy(expression1, expression2, accuracy, format...)
+  ```
+   Performance testing:
+    ``` 
+    [self.measureBlock: ^{
+      // do something
+      }];
+    ```
+   Asynchronous testing via `XCTestExpectation`
+      https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/testing_with_xcode/testing_3_writing_test_classes/testing_3_writing_test_classes.html#//apple_ref/doc/uid/TP40014132-CH4-SW6
+      `XCTestExpectation`, `XCTestExpectation::fulfill`, and `XCTestExpectation::waitForExpectationsWithTimout:handler:`
+   
+   
+  XCTestExpectation 
