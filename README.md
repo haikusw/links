@@ -66,4 +66,3 @@ Random tidbits to remember
       `XCTestExpectation`, `XCTestExpectation::fulfill`, and `XCTestExpectation::waitForExpectationsWithTimout:handler:`
    
    
-  XCTestExpectation 
