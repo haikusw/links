@@ -69,6 +69,6 @@ Random tidbits to remember
 - lldb tips
   - $arg1, $arg2, $arg3, ..., $arg9 for command/method arguments (1 = self, 2 = _cmd for objC methods of course).
   - use in conditional breakpoints:  
-      br s -S setObject:forKey: -c '($arg3 == nil)'
+      ```br s -S setObject:forKey: -c '($arg3 == nil)'```
     condition setting also works in Xcode visual breakpoint editor ``'($arg3 == nil)'``
 
