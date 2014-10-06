@@ -65,4 +65,9 @@ Random tidbits to remember
       https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/testing_with_xcode/testing_3_writing_test_classes/testing_3_writing_test_classes.html#//apple_ref/doc/uid/TP40014132-CH4-SW6
       `XCTestExpectation`, `XCTestExpectation::fulfill`, and `XCTestExpectation::waitForExpectationsWithTimout:handler:`
    
-   
+
+- lldb tips
+  - $arg1, $arg2, $arg3, ..., $arg9 for command/method arguments (1 = self, 2 = _cmd for objC methods of course).
+  - use in conditional breakpoints:  
+      br s -S setObject:forKey: -c '($arg3 == nil)'
+
