@@ -72,4 +72,10 @@ Random tidbits to remember
       ```br s -S setObject:forKey: -c '($arg3 == nil)'```
     condition setting also works in Xcode visual breakpoint editor ``($arg3 == nil)``  (note no single quotes for Xcode UI)
 
+- Format strings & NSInteger / NSUInteger
+  - %tu (NSUInteger)
+  - %zd (NSInteger)
+  - %tx (hex output of NSUInteger/NSInteger)
+  via https://twitter.com/gparker/status/377910611453046784 as of 9/2013
+
 
