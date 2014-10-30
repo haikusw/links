@@ -29,6 +29,9 @@ Code
 - xctool
   https://github.com/facebook/xctool/
 
+- chisel - lldb debugging aids for iOS
+  https://github.com/facebook/chisel
+
 
 Online Tools
 ===
@@ -79,3 +82,33 @@ Random tidbits to remember
   via https://twitter.com/gparker/status/377910611453046784 as of 9/2013
 
 
+git
+===
+
+`$ git fetch origin "+refs/heads/master:refs/remotes/origin/master" "+refs/pull/42/head:refs/pr/42"`
+`$ git difftool "$(git merge-base origin/master pr/42)" pr/42`
+
+`$ git config --global -l`
+
+    difftool.sourcetree.cmd=opendiff "$LOCAL" "$REMOTE"
+    difftool.sourcetree.path=
+    mergetool.sourcetree.cmd=/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor "$BASE" -merge "$MERGED"
+    mergetool.sourcetree.trustexitcode=true
+    user.name=haikusw
+    user.email= XXXXXXX
+    mergetool.keepbackup=true
+    difftool.Kaleidoscope.cmd=ksdiff --partial-changeset --relative-path "$MERGED" -- "$LOCAL" "$REMOTE"
+    mergetool.Kaleidoscope.cmd=ksdiff --merge --output "$MERGED" --base "$BASE" -- "$LOCAL" --snapshot "$REMOTE" --snapshot
+    mergetool.Kaleidoscope.trustexitcode=true
+    mergetool.tower.cmd="/Applications/Tower.app/Contents/Resources/kaleidoscope.sh" "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+    mergetool.tower.trustexitcode=true
+    difftool.tower.cmd="/Applications/Tower.app/Contents/Resources/kaleidoscope.sh" "$LOCAL" "$REMOTE" "$MERGED"
+    difftool.ksdiff.cmd=ksdiff --partial-changeset --relative-path "$MERGED" -- "$LOCAL" "$REMOTE"
+    mergetool.ksdiff.cmd=ksdiff --merge --output "$MERGED" --base "$BASE" -- "$LOCAL" --snapshot "$REMOTE" --snapshot
+    mergetool.ksdiff.trustexitcode=true
+    diff.guitool=ksdiff
+    diff.tool=twdiff
+    difftool.twdiff.cmd=twdiff "$LOCAL" "$REMOTE"
+    difftool.prompt=false
+
+`git difftool branchname  -- working/path/to/file.m`
