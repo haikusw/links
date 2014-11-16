@@ -82,6 +82,11 @@ Random tidbits to remember
   via https://twitter.com/gparker/status/377910611453046784 as of 9/2013
 
 
+- Blocks cheat sheets
+  - https://gist.github.com/haikusw/679c0818dbdb5970d5b8
+  - http://goshdarnblocksyntax.com
+
+
 git
 ===
 
