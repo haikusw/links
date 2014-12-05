@@ -54,7 +54,8 @@ Tools
 - Charlsoft makes Pacifist
   https://www.charlessoft.com
 
-- 
+- FLEX a set of in-app debugging and exploration tools for iOS development
+  https://github.com/haikusw/FLEX
 
 
 Random tidbits to remember
