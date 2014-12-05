@@ -57,6 +57,9 @@ Tools
 - FLEX a set of in-app debugging and exploration tools for iOS development
   https://github.com/haikusw/FLEX
 
+- Interface Inspector - inspect OS X UI
+  http://interface-inspector.com/index.html
+
 
 Random tidbits to remember
 ===
