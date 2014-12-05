@@ -48,6 +48,14 @@ Tools
 - VVDocumenter-Xcode documentation generator plug-in
   https://github.com/onevcat/VVDocumenter-Xcode
 
+- MCSLLDBToolkit - LLDB extension
+  http://macoscope.com/blog/improving-debugging-workflow-introducing-mcslldbtoolkit/
+
+- Charlsoft makes Pacifist
+  https://www.charlessoft.com
+
+- 
+
 
 Random tidbits to remember
 ===
