@@ -87,6 +87,9 @@ Random tidbits to remember
       ```br s -S setObject:forKey: -c '($arg3 == nil)'```
     condition setting also works in Xcode visual breakpoint editor ``($arg3 == nil)``  (note no single quotes for Xcode UI)
 
+  - More (regular expressions in breakpoints, `thread return`, etc):
+    http://indiestack.com/2014/12/xcode-consolation/
+
 - Format strings & NSInteger / NSUInteger
   - %tu (NSUInteger)
   - %zd (NSInteger)
