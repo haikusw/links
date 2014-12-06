@@ -48,6 +48,9 @@ Tools
 - VVDocumenter-Xcode documentation generator plug-in
   https://github.com/onevcat/VVDocumenter-Xcode
 
+- Snippets Xcode plugin
+  https://github.com/acoomans/ACCodeSnippetRepositoryPlugin
+
 - MCSLLDBToolkit - LLDB extension
   http://macoscope.com/blog/improving-debugging-workflow-introducing-mcslldbtoolkit/
 
