@@ -93,6 +93,9 @@ Random tidbits to remember
   - More (regular expressions in breakpoints, `thread return`, etc):
     http://indiestack.com/2014/12/xcode-consolation/
 
+- dump view controller hierarchy
+  - ```po [[[[UIApplication sharedApplication] keyWindow] rootViewController] _printHierarchy]```
+
 - Format strings & NSInteger / NSUInteger
   - %tu (NSUInteger)
   - %zd (NSInteger)
